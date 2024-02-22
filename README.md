@@ -10,6 +10,23 @@ type ReadSeekPeeker interface {
 }
 ```
 
+```go
+s := "hello beautiful wonderful world!"
+r := readseekpeeker.NewBufferedReadSeekPeeker(strings.NewReader(s), 5)
+
+b := make([]byte, 5)
+r.Read(b)
+
+peek, _ := r.Peek(11)      // 😳
+
+r.Seek(21, io.SeekCurrent) // 😮
+
+rest, _ := io.ReadAll(r)
+
+fmt.Println(string(b), string(peek), string(rest))
+// Output: hello  beautiful  world!
+```
+
 As of `2024-02-22`, standard go packages allow either:  
 A) `Seek()` by [io.ReadSeeker](https://pkg.go.dev/io#ReadSeeker)  
 B) `Peek()` by [bufio.Reader](https://pkg.go.dev/bufio#Reader.Peek)  
