@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/nikolaydubina/read-seek-peeker/graph/badge.svg?token=dWs1oSWSRU)](https://codecov.io/gh/nikolaydubina/readseekpeeker)
+[![codecov](https://codecov.io/gh/nikolaydubina/read-seek-peeker/graph/badge.svg?token=dWs1oSWSRU)](https://codecov.io/gh/nikolaydubina/read-seek-peeker)
 [![Go Report Card](https://goreportcard.com/badge/github.com/nikolaydubina/read-seek-peeker)](https://goreportcard.com/report/github.com/nikolaydubina/read-seek-peeker)
 [![Go Reference](https://pkg.go.dev/badge/github.com/nikolaydubina/read-seek-peeker#section-readme.svg)](https://pkg.go.dev/github.com/nikolaydubina/read-seek-peeker#section-readme)
 
