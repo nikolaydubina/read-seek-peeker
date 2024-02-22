@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nikolaydubina/readseekpeeker"
+	readseekpeeker "github.com/nikolaydubina/read-seek-peeker"
 )
 
 func TestBufferedReadSeekPeeker(t *testing.T) {
