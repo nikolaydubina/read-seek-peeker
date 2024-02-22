@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/nikolaydubina/readseekpeeker/graph/badge.svg?token=dWs1oSWSRU)](https://codecov.io/gh/nikolaydubina/readseekpeeker)
+
 ```go
 type ReadSeekPeeker interface {
 	Read(p []byte) (n int, err error)
