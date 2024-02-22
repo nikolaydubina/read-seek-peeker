@@ -1,4 +1,7 @@
 [![codecov](https://codecov.io/gh/nikolaydubina/readseekpeeker/graph/badge.svg?token=dWs1oSWSRU)](https://codecov.io/gh/nikolaydubina/readseekpeeker)
+https://pkg.go.dev/github.com/nikolaydubina/readseekpeeker
+[![Go Reference](https://pkg.go.dev/github.com/nikolaydubina/readseekpeeker.svg)](https://pkg.go.dev/github.com/nikolaydubina/readseekpeeker)
+[![Go Report Card](https://goreportcard.com/badge/github.com/nikolaydubina/fpdecimal)](https://goreportcard.com/report/github.com/nikolaydubina/fpdecimal)
 
 ```go
 type ReadSeekPeeker interface {
