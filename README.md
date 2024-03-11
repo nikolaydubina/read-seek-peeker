@@ -17,9 +17,9 @@ r := readseekpeeker.NewBufferedReadSeekPeeker(strings.NewReader(s), 5)
 b := make([]byte, 5)
 r.Read(b)
 
-peek, _ := r.Peek(11)      // 😳
+peek, _ := r.Peek(11)      // !
 
-r.Seek(21, io.SeekCurrent) // 😮
+r.Seek(21, io.SeekCurrent) // !!
 
 rest, _ := io.ReadAll(r)
 
