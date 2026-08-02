@@ -1,9 +1,4 @@
-<p align="center">
-  ✨ Sponsored by <a href="https://apps.apple.com/app/id6738306589">NDX AI Shopping Assistant</a>
-</p>
-
 [![codecov](https://codecov.io/gh/nikolaydubina/read-seek-peeker/graph/badge.svg?token=dWs1oSWSRU)](https://codecov.io/gh/nikolaydubina/read-seek-peeker)
-[![Go Report Card](https://goreportcard.com/badge/github.com/nikolaydubina/read-seek-peeker)](https://goreportcard.com/report/github.com/nikolaydubina/read-seek-peeker)
 [![Go Reference](https://pkg.go.dev/badge/github.com/nikolaydubina/read-seek-peeker#section-readme.svg)](https://pkg.go.dev/github.com/nikolaydubina/read-seek-peeker#section-readme)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/nikolaydubina/read-seek-peeker/badge)](https://securityscorecards.dev/viewer/?uri=github.com/nikolaydubina/read-seek-peeker)
 
